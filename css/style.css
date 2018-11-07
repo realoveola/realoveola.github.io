@@ -119,6 +119,7 @@ img{
 	border-radius: 10px;
 }
 footer{
+	bottom:0;
 	font:13pt TT lakes, Tahoma, sans-serif;
 	color: white;
 	text-align: center;	
