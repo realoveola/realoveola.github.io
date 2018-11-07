@@ -1,0 +1,125 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(Space2.jpg)no-repeat;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	background-size: 100% 100%;
+  background-color: #03061A;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: rgba(150, 255, 255, 1);
+   } 
+   
+.container{
+	height: 600px;
+	width: 1200px;
+    margin: 0 auto;
+	margin-top:1%;
+	margin-bottom:2%;
+}
+@font-face {
+	font-family: TT lakes;
+	src: url(fonts/TypeType - TT Lakes Medium.ttf);
+	font-family: Fashion Fetish Light
+	src: url(fonts/Fashion Fetish Light.ttf);
+}
+#lab1, #lab2, #lab3, #lab4,.button {
+	text-shadow: black 0 0 10px;
+	box-shadow: 0 0 20px rgba(237, 205, 163, 0.4);
+}
+.title, .title2{
+	text-shadow: black 0 0 10px;
+	font:20pt Fashion Fetish Light, Tahoma, sans-serif;
+	color: white;
+	text-align: center;	
+}
+.title{
+	margin: 0 auto;
+	padding: 20%;
+	background: url(Space.jpg)no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	background-size: 100% 100%;
+}
+.title H1{
+	padding-bottom:1%;
+	border-bottom: 2px solid white;
+}
+.title2, footer{
+	margin-top:1%;
+	padding: 1%;
+	background: url(Abstract.jpg)no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	background-size: 100%;
+	text-shadow: black 0 0 10px;
+	box-shadow: 0 0 5px rgba(237, 205, 163, 0.4);
+	border-bottom: 2px solid rgba(237, 205, 163, 0.4);
+	border-top: 2px solid rgba(237, 205, 163, 0.4);
+}
+
+.main
+{
+	float:left;
+	display: inline-block;
+	height:100%;
+	width: 74%;
+	margin-left:1%;
+}
+#lab1, #lab2, #lab3, #lab4 {
+	display: none;
+	height:100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#lab1, #lab2, #lab3, #lab4,.button{	
+	background: radial-gradient(ellipse farthest-side at 60px 5px, rgba(150, 255, 255, 0.5), rgba(130, 255, 255, 0.5), rgba(35, 220, 255, 0.5));
+	font:13pt TT lakes, Tahoma, sans-serif;
+	color: white;
+	text-align: left;	
+	border: 4px double white;
+	border-radius: 10px;
+}
+aside{
+	float:left;
+	display: inline-block;
+	height: 75%;
+	width: 25%;
+}
+.button{
+	padding: 3% 4% 3%;
+	cursor:pointer;
+}
+.button:hover{
+		background: radial-gradient(ellipse farthest-side at 60px 5px, rgba(90, 150, 150, 0.5), rgba(65, 150, 150, 0.5), rgba(15, 110, 150, 0.5));
+}
+.button:focus{
+		background: radial-gradient(ellipse farthest-side at 60px 5px, rgba(255, 161, 161, 0.5), rgba(255, 131, 131, 0.5), rgba(255, 36, 36, 0.5));
+}
+#lab1 H4, #lab2 H4, #lab3 H4, #lab4 H4,img{
+	margin: 2%;
+}
+#lab1 p, #lab2 p, #lab3 p, #lab4 p{
+	margin: 2%;
+} 
+img{
+	width:90%;
+	border-radius: 10px;
+}
+footer{
+	font:13pt TT lakes, Tahoma, sans-serif;
+	color: white;
+	text-align: center;	
+}
