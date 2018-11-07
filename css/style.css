@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url(Space2.jpg)no-repeat;
+  background: url(space2.jpg)no-repeat;
   -moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 	-o-background-size: 100%;
@@ -44,7 +44,7 @@ a {
 .title{
 	margin: 0 auto;
 	padding: 20%;
-	background: url(space.jpg)no-repeat;
+	background: url(Space.jpg)no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 	-o-background-size: 100%;
