@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    color:white;
+    font:13pt Century Gothic, Tahoma, sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+table
+{
+    margin: 0 auto;
+    background-color: limegreen;
+    border: solid 1px white;
+    border-radius: 1%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+tr
+{
+    width: 50px;
+}
+td
+{
+    width: inherit;
+    height: 50px;
+
+    border: solid 1px white;
+    border-radius: 10%;
+}
+.circle{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    border-radius: 100%;
+    border-style: none;
+}
+p
+{
+    display: inline-block;
+}
+#Start
+{
+    width: 300px;
+    height: 300px;
+    color:white;
+    font:13pt Century Gothic, Tahoma, sans-serif;
+    background-color: limegreen;
+    border-radius: 100%;
+    border-style: none;
+}
